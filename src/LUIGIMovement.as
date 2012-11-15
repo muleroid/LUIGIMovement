@@ -1,12 +1,11 @@
-package
-{
-	import flash.display.Sprite;
+package {
+	import org.flixel.*;
 	
-	public class LUIGIMovement extends Sprite
-	{
-		public function LUIGIMovement()
-		{
-			
+	[SWF(width="640", height="480", backgroundColor="#ffffff")]
+	
+	public class LUIGIMovement extends FlxGame {
+		public function LUIGIMovement() {
+			super(640, 480, PlayState, 1);
 		}
 	}
 }
